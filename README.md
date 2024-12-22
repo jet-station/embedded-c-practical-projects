@@ -65,7 +65,7 @@ To visualize the measured signals of microcontroller pins from Logic Analyzer an
 When I'm doing this series, I have below assumptions:
 * Reader has a basic knowledge of C programming language.
 * Reader has a knowledge about microcontroller hardware.
-* The target objects are used: Tiva™ TM4C123GH6PM Microcontroller và Tiva C Series TM4C123G LaunchPad Evaluation Kit.
+* The target hardware objects are used: Tiva™ TM4C123GH6PM Microcontroller and Tiva C Series TM4C123G LaunchPad Evaluation Kit.
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
