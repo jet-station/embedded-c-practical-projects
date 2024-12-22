@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Board Support Packages Topics
+# Board Support Package Topics
 <p align="center">
   <a href="." title="Board Support Package">
     <img src="/Board_Support_Packages/bsp.png" title="Board Support Package" style="width: 100vw; min-width: 200px"/>
