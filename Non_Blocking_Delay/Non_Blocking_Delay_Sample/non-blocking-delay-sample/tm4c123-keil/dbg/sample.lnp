@@ -1,0 +1,9 @@
+--cpu=Cortex-M4.fp.sp
+".\dbg\main.o"
+".\dbg\bsp.o"
+".\dbg\startup_tm4c123gh6pm.o"
+".\dbg\system_tm4c123gh6pm.o"
+--strict --scatter ".\sample.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\dbg\sample.map" -o .\dbg\sample.axf

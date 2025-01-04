@@ -26,7 +26,7 @@ Development Kit used in the most of topics is [Tiva C Series TM4C123G LaunchPad 
   </a>
 </p>
 
-Additionally, during testing và debugging, I also use Logic Analyzer to measure and capture the signal of microcontroller input/output pins.
+Additionally, during testing and debugging, I also use Logic Analyzer to measure and capture the signal of microcontroller input/output pins.
 <p align="center">
   <a href="." title="Logic Analyzer">
     <img src="/Assets/LogicAnalyzer.png" title="Logic Analyzer" style="min-width: 200px"/>

@@ -4,25 +4,17 @@
   </a>
 </p>
 
-[Embedded Software Programming Concepts](https://github.com/Sigma-eLabs/embedded-software-programming-concepts) will focus on the techniques to design and development a robustness software, which is strong demanded in today by users, customers, and employers.
-
-Having the knowledge about the programming principles, good ideas to build a stable and high-performance software is very important because of the demand of the market. Also, having an overview that why software is being designed in different ways depend on the requirement of projects, would support you design and implement a robustness software.
-
-The topics may be simple, but I believe that it is a launchpad for you to approach the much higher complex technical topic in embedded programming world!
-# Embedded Software Programming Concepts 
-
+# Non-blocking Delay
 <p align="center">
-  <a href="." title="Embedded Software Programming Concepts">
-    <img src="/Assets/EmbeddedSwProConcepts.png" title="Embedded Software Programming Concepts" style="width: 100vw; min-width: 200px"/>
+  <a href="." title="on-blocking Delay">
+    <img src="/Non_Blocking_Delay/Non_Blocking_Delay_Sample/images/non_blocking_delay.png" title="on-blocking Delay" style="width: 100vw; min-width: 200px"/>
   </a>
 </p>
 
-# Topics
-Summary of the topics are already available:
+Summary of the topics are already available for Non-blocking Delay:
 | Topic    | Description |
 | :-------- | :------- |
-| [Board Support Packages](/Board_Support_Packages/)  | Examples of BSP implementation techniques  |
-| [Non-blocking Delay](/Non_Blocking_Delay/)  | Examples of Non-blocking Delay implementation  |
+| [Non-blocking Delay Example](/Non_Blocking_Delay/Non_Blocking_Delay_Sample/)  | An example of Non-blocking Delay implementation |
 
 # Requisitions
 The below requistions are used for demostration only. For your case, you can choose another setup and implement the idea provided in the examples.
@@ -34,7 +26,7 @@ Development Kit used in the most of topics is [Tiva C Series TM4C123G LaunchPad 
   </a>
 </p>
 
-Additionally, during testing và debugging, I also use Logic Analyzer to measure and capture the signal of microcontroller input/output pins.
+Additionally, during testing and debugging, I also use Logic Analyzer to measure and capture the signal of microcontroller input/output pins.
 <p align="center">
   <a href="." title="Logic Analyzer">
     <img src="/Assets/LogicAnalyzer.png" title="Logic Analyzer" style="min-width: 200px"/>
@@ -49,7 +41,7 @@ Additionally, during testing và debugging, I also use Logic Analyzer to measure
   </a>
 </p>
 
-To visualize the measured signals of microcontroller pins from Logic Analyzer and easy to analyze the logs, [Logic 2](https://www.saleae.com/pages/downloads) tool is one of the suitale choice.
+To visualize the measured signals of microcontroller pins from Logic Analyzer and easy to analyze the logs, [Logic 2](https://www.saleae.com/pages/downloads) tool is one of the suitable choices.
 <p align="center">
   <a href="." title="Logic 2">
     <img src="/Assets/Logic2.PNG" title="Logic 2" style="width: 100vw; min-width: 200px"/>
@@ -72,5 +64,3 @@ When I'm doing this series, I have below assumptions:
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
 * Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
 * LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/).
-
-I'm always welcome your ideas and thank for your insteresting!
