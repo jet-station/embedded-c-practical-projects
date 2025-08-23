@@ -1,6 +1,6 @@
 <p align="center">
   <a href="." title="Sigma eLabs">
-    <img src="/Assets/SigmaeLabsBannerv2.png" title="Sigma eLabs" style="width: 100vw; min-width: 200px"/>
+    <img src="/assets/SigmaeLabsBannerv2.png" title="Sigma eLabs" style="width: 100vw; min-width: 200px"/>
   </a>
 </p>
 
@@ -8,7 +8,7 @@
 This is an example of Board Support Package implementation. BSP is one of the common design and implementation approach which is wisely used in the embedded software programming. In embedded software programming world, most of the products more or less have the dependencies with the specific hardware, where software is running on.
 <p align="center">
   <a href="." title="Tiva C Series Launchpad Board Support Package">
-    <img src="/Board_Support_Packages/TivaC_BSP_Example/images/HardwareSetup.png" title="Tiva C Series Launchpad Board Support Package" style="min-width: 200px"/>
+    <img src="/Board_Support_Packages/tivac-bsp-example/images/HardwareSetup.png" title="Tiva C Series Launchpad Board Support Package" style="min-width: 200px"/>
   </a>
 </p>
 
@@ -45,7 +45,7 @@ Note: For this project, you can choose your own hardware and software. It doesn'
 * [Tiva™ TM4C123GH6PM Microcontroller Software Support Package](https://github.com/Sigma-eLabs/technical-resources/tree/main/tiva-c-series/ek-tm4c123gxl)
 
 # Implementation
-I place the source code of this example here: :rocket: [Tiva C BSP Example](/Board_Support_Packages/TivaC_BSP_Example/tivac-bsp-example/) :rocket:
+I place the source code of this example here: :rocket: [Tiva C BSP Example](/Board_Support_Packages/tivac-bsp-example/tivac-bsp-example/) :rocket:
 
 * I put the configuration and initialization related to hardware/registers inside the BSP_init() function. From user point of view, it very useful and easy to use, especially, application developer, he just needs to know What the BSP_init() API do, but not How it do.
   ```C
@@ -148,13 +148,23 @@ By organizing the software into modules and using BSP approach, the software is 
 I do not intent to mention the steps to deploy and test the software here again because it's already done in [GPIO Interrupt with on-board button pressed](https://github.com/Sigma-eLabs/uc-programming/tree/main/gpio/gpio-interrupt-button-pressed), you can prefer to.
 <p align="center">
   <a href="." title="Code">
-    <img src="/Board_Support_Packages/TivaC_BSP_Example/images/Code.PNG" title="Code" style="min-width: 200px"/>
+    <img src="/Board_Support_Packages/tivac-bsp-example/images/Code.PNG" title="Code" style="min-width: 200px"/>
   </a>
 </p>
 
+# My Recommendations:
+- [🔨 Development Boards](https://github.com/ai-ho/embedded-launchpad/blob/main/development-boards)
+- [🎓 Training Courses](https://github.com/ai-ho/embedded-launchpad/blob/main/training-courses)
+- [📚 Suggestion Books](https://github.com/ai-ho/embedded-launchpad/blob/main/suggested-books)
+- [🔍 Reference Mterials](https://github.com/ai-ho/embedded-launchpad/blob/main/referrence-materials)
+
+# Embedded Insights
+[🚀 Embedded Insights](/)
+
+# Repositories
+[🏠 My Repositories](https://github.com/ai-ho)
+
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
-* Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
-* LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/).
-
-I'm always welcome your ideas and thank for your insteresting!
+- 📧 Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
+- 💼 LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/)
