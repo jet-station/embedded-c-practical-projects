@@ -1,6 +1,6 @@
 <p align="center">
   <a href="." title="Sigma eLabs">
-    <img src="/Assets/SigmaeLabsBannerv2.png" title="Sigma eLabs" style="width: 100vw; min-width: 200px"/>
+    <img src="/assets/SigmaeLabsBannerv2.png" title="Sigma eLabs" style="width: 100vw; min-width: 200px"/>
   </a>
 </p>
 
@@ -149,9 +149,19 @@ The software is flashed inton Tiva C Launch Pad. I reset the software, pressed t
 
 * Nothing is perfect and the software is also the same. I see that there are many chances to improve. Can you try it?
 
+# My Recommendations:
+- [🔨 Development Boards](https://github.com/ai-ho/embedded-launchpad/blob/main/development-boards)
+- [🎓 Training Courses](https://github.com/ai-ho/embedded-launchpad/blob/main/training-courses)
+- [📚 Suggestion Books](https://github.com/ai-ho/embedded-launchpad/blob/main/suggested-books)
+- [🔍 Reference Mterials](https://github.com/ai-ho/embedded-launchpad/blob/main/referrence-materials)
+
+# Embedded Insights
+[🚀 Embedded Insights](/)
+
+# Repositories
+[🏠 My Repositories](https://github.com/ai-ho)
+
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
-* Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
-* LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/).
-
-I'm always welcome your ideas and thank for your insteresting!
+- 📧 Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
+- 💼 LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/)

@@ -1,4 +1,4 @@
-### STM32F103C6 Blinky Demo Project
+# STM32F103C6 Blinky Demo Project
 
 🎯 This demo project introduces the basic structure of an embedded C program using the STM32F103C6 microcontroller. The main objective is to demonstrate how to configure and control the on-board LED (connected to pin PC13) by toggling it at regular intervals.
 
@@ -21,16 +21,22 @@
 
 🚀 This example is ideal for learning the fundamentals of embedded software development and getting hands-on experience with STM32 microcontrollers.
 
-### Explore More Topics
+# Explore More Topics
 |[👈 Previous](../) | [Next 👉](../)|
 
-### My Recommendations:
-- [🔨 Boards]()
-- [🎓 Courses]()
-- [📚 Books]()
+# My Recommendations:
+- [🔨 Development Boards](https://github.com/ai-ho/embedded-launchpad/blob/main/development-boards)
+- [🎓 Training Courses](https://github.com/ai-ho/embedded-launchpad/blob/main/training-courses)
+- [📚 Suggestion Books](https://github.com/ai-ho/embedded-launchpad/blob/main/suggested-books)
+- [🔍 Reference Mterials](https://github.com/ai-ho/embedded-launchpad/blob/main/referrence-materials)
 
-### Embedded Insights
-[🚀 Embedded Insights]()|
+# Embedded Insights
+[🚀 Embedded Insights](/)
 
-### Repositories
+# Repositories
 [🏠 My Repositories](https://github.com/ai-ho)
+
+# Contact & Discussion
+If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
+- 📧 Email [Ho Thien Ai](mailto:thienaiho95@gmail.com)
+- 💼 LinkedIn [Thien Ai Ho](https://www.linkedin.com/in/thien-ai-ho/)
