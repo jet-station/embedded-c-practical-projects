@@ -1,84 +1,31 @@
-<p align="center">
-  <a href="." title="Sigma eLabs">
-    <img src="/assets/SigmaeLabsBannerv2.png" title="Sigma eLabs" style="width: 100vw; min-width: 200px"/>
-  </a>
-</p>
+# Embedded Insights
 
-[Embedded Software Programming Concepts](https://github.com/Sigma-eLabs/embedded-software-programming-concepts) will focus on the techniques to design and development a robustness software, which is strong demanded in today by users, customers, and employers.
+🚀 Welcome to Embedded Insights! This blog is dedicated to sharing knowledge and practical experience in embedded software programming, covering topics from basic concepts to advanced techniques. Whether you are a beginner looking to understand the fundamentals or an experienced developer seeking deeper insights, you will find articles, tutorials, and project examples designed to help you grow your skills in embedded systems development.
 
-Having the knowledge about the programming principles, good ideas to build a stable and high-performance software is very important because of the demand of the market. Also, having an overview that why software is being designed in different ways depend on the requirement of projects, would support you design and implement a robustness software.
+<!-- Images Placeholder -->
+<img src="img/embedded-insights.png" alt="Embedded Insights"/>
+<!-- Add more images as needed -->
 
-The topics may be simple, but I believe that it is a launchpad for you to approach the much higher complex technical topic in embedded programming world!
-# Embedded Software Programming Concepts 
+# Table of Contents
 
-<p align="center">
-  <a href="." title="Embedded Software Programming Concepts">
-    <img src="/assets/EmbeddedSwProConcepts.png" title="Embedded Software Programming Concepts" style="width: 100vw; min-width: 200px"/>
-  </a>
-</p>
-
-# Topics
-Summary of the topics are already available:
-| Topic    | Description |
-| :-------- | :------- |
-| [Board Support Packages](/Board_Support_Packages/)  | Examples of BSP implementation techniques  |
-| [Non-blocking Delay](/Non_Blocking_Delay/)  | Examples of Non-blocking Delay implementation  |
-
-# Requisitions
-The below requistions are used for demostration only. For your case, you can choose another setup and implement the idea provided in the examples.
-## Hardware
-Development Kit used in the most of topics is [Tiva C Series TM4C123G LaunchPad Evaluation Kit - EK-TM4C123GXL](https://www.ti.com/tool/EK-TM4C123GXL). The main microcontroller on the development kit is ARM Cortex-M4F 32-bit produced by Texas Instruments. Moreover, there is on-board Debugger/Programmer (Stellaris ICDI) that enable user quickly flashes and debugs easily.
-<p align="center">
-  <a href="." title="Tiva C Series TM4C123G LaunchPad Evaluation Kit">
-    <img src="/assets/ek-tm4c123gxl.png" title="Tiva C Series TM4C123G LaunchPad Evaluation Kit" style="min-width: 200px"/>
-  </a>
-</p>
-
-Additionally, during testing và debugging, I also use Logic Analyzer to measure and capture the signal of microcontroller input/output pins.
-<p align="center">
-  <a href="." title="Logic Analyzer">
-    <img src="/assets/LogicAnalyzer.png" title="Logic Analyzer" style="min-width: 200px"/>
-  </a>
-</p>
-
-## Software
-[Keil C](https://www.keil.com/demo/eval/arm.htm) is an IDE developed by ARM company. It is a very powerful tool supports software engineer to compose, edit, compile, flash code and debug. Especially, with non-comercial version, I think it fully supports all your needs to study and research.
-<p align="center">
-  <a href="." title="Keil C">
-    <img src="/assets/KeilC.PNG" title="Keil C" style="width: 100vw; min-width: 200px"/>
-  </a>
-</p>
-
-To visualize the measured signals of microcontroller pins from Logic Analyzer and easy to analyze the logs, [Logic 2](https://www.saleae.com/pages/downloads) tool is one of the suitale choice.
-<p align="center">
-  <a href="." title="Logic 2">
-    <img src="/assets/Logic2.PNG" title="Logic 2" style="width: 100vw; min-width: 200px"/>
-  </a>
-</p>
-
-## Documents
-* [Tiva™ C Series TM4C123G LaunchPad Evaluation Board User's Guide](https://github.com/Sigma-eLabs/technical-resources/blob/main/tiva-c-series/spmu296.pdf)
-* [Tiva™ TM4C123GH6PM Microcontroller Datasheet](https://github.com/Sigma-eLabs/technical-resources/blob/main/tiva-c-series/tm4c123gh6pm.pdf)
-* [Cortex Microcontroller Software Interface Standard (CMSIS)](https://github.com/Sigma-eLabs/technical-resources/tree/main/tiva-c-series/CMSIS)
-* [Tiva™ TM4C123GH6PM Microcontroller Software Support Package](https://github.com/Sigma-eLabs/technical-resources/tree/main/tiva-c-series/ek-tm4c123gxl)
-
-# Assumptions
-When I'm doing this series, I have below assumptions:
-* Reader has a basic knowledge of C programming language.
-* Reader has a knowledge about microcontroller hardware.
-* The target hardware objects are used: Tiva™ TM4C123GH6PM Microcontroller and Tiva C Series TM4C123G LaunchPad Evaluation Kit.
+| Topic | Description |
+|-------|-------------|
+| [STM32F103C6 Demo](topics/01-stm32f103c6-demo/README.md) | Basic embedded C demo using STM32F103C6 |
+| [Embedded C Data Types](topics/02-embedded-c-data-types/README.md) | Overview and best practices for data types in embedded C |
+| [Board Support Packages](topics/Board_Support_Packages/README.md) | Examples and resources for board support packages |
+| [Non-Blocking Delay](topics/Non_Blocking_Delay/README.md) | Techniques for implementing non-blocking delays in embedded systems |
 
 # My Recommendations:
-- [🔨 Development Boards](https://github.com/ai-ho/embedded-launchpad/blob/main/development-boards)
-- [🎓 Training Courses](https://github.com/ai-ho/embedded-launchpad/blob/main/training-courses)
-- [📚 Suggestion Books](https://github.com/ai-ho/embedded-launchpad/blob/main/suggested-books)
-- [🔍 Reference Mterials](https://github.com/ai-ho/embedded-launchpad/blob/main/referrence-materials)
+- 🔨 [Development Boards](https://github.com/ai-ho/embedded-launchpad/blob/main/development-boards)
+- 🎓 [Training Courses](https://github.com/ai-ho/embedded-launchpad/blob/main/training-courses)
+- 📚 [Suggestion Books](https://github.com/ai-ho/embedded-launchpad/blob/main/suggested-books)
+- 🔍 [Reference Mterials](https://github.com/ai-ho/embedded-launchpad/blob/main/referrence-materials)
 
 # Embedded Insights
-[🚀 Embedded Insights](/)
+🚀 [Embedded Insights](/)
 
 # Repositories
-[🏠 My Repositories](https://github.com/ai-ho)
+🏠 [My Repositories](https://github.com/ai-ho)
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
