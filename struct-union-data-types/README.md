@@ -61,6 +61,7 @@ sensor1.status = 'B';
 - Widely used for handling data that may take different forms.
 ### Use Cases
 Here’s a typical use case for using the union data type in embedded systems:
+
 📌 Unions are commonly used when a variable may need to store different types of data at different times, such as protocol packets, hardware registers, or interpreting raw data from peripherals. For example, a union can be used to access the same memory as an integer or a byte array, depending on the application’s requirements. This approach helps save memory and simplifies data handling in embedded applications.
 
 ### Declaration
@@ -229,10 +230,10 @@ typedef struct __attribute__((packed)) {
 🚀 [Demo Projects](/)
 
 # Repositories
-🏠 [My Repositories](https://github.com/embsoft-labs)
+🏠 [My Repositories](https://github.com/embesyslabs)
 
 # My Website
-🌐 [Embedded Software Labs](https://embsoft-labs.github.io/)
+🌐 [Embedded Software Labs](https://embesyslabs.github.io/)
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
