@@ -1,23 +1,0 @@
-Dependencies for Project 'lesson', Target 'TivacBspExample': (DO NOT MODIFY !)
-CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\main.c)(0x67657ED2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../ek-tm4c123gxl -I ../CMSIS/Include -Wno-declaration-after-statement-IC:/DevTools/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o ./dbg/main.o -MMD)
-I (bsp.h)(0x6767B96C)
-F (.\bsp.h)(0x6767B96C)()
-F (.\bsp.c)(0x67622061)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../ek-tm4c123gxl -I ../CMSIS/Include -Wno-declaration-after-statement-IC:/DevTools/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o ./dbg/bsp.o -MMD)
-I (bsp.h)(0x6767B96C)
-I (..\ek-tm4c123gxl\TM4C123GH6PM.h)(0x675AFCCD)
-I (..\CMSIS\Include\core_cm4.h)(0x675AFCCD)
-I (..\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x675AFCCD)
-F (..\ek-tm4c123gxl\arm\startup_TM4C123GH6PM.s)(0x675AFCCD)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/DevTools/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"Stack_Size SETA 2048" -Wa,armasm,--pd,"Heap_Size SETA 0"-o ./dbg/startup_tm4c123gh6pm.o)
-F (..\ek-tm4c123gxl\README.txt)(0x675AFCCD)()
-F (..\ek-tm4c123gxl\system_TM4C123GH6PM.c)(0x675AFCCD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../ek-tm4c123gxl -I ../CMSIS/Include -Wno-declaration-after-statement-IC:/DevTools/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o ./dbg/system_tm4c123gh6pm.o -MMD)
-I (..\ek-tm4c123gxl\TM4C123GH6PM.h)(0x675AFCCD)
-I (..\CMSIS\Include\core_cm4.h)(0x675AFCCD)
-I (..\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x675AFCCD)
-F (..\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x675AFCCD)()
-F (..\ek-tm4c123gxl\TM4C123GH6PM.h)(0x675AFCCD)()
-F (..\CMSIS\Include\cmsis_armclang.h)(0x675AFCCD)()
-F (..\CMSIS\Include\cmsis_compiler.h)(0x675AFCCD)()
-F (..\CMSIS\Include\cmsis_version.h)(0x675AFCCD)()
-F (..\CMSIS\Include\core_cm4.h)(0x675AFCCD)()
-F (..\CMSIS\Include\mpu_armv7.h)(0x675AFCCD)()
