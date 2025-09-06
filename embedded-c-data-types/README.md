@@ -88,10 +88,10 @@ const uint8_t EmbeddedC_DataSizeInBytes_u8[] = {
 🚀 [Demo Projects](/)
 
 # Repositories
-🏠 [My Repositories](https://github.com/embsoft-labs)
+🏠 [My Repositories](https://github.com/embesyslabs)
 
 # My Website
-🌐 [Embedded Software Labs](https://embsoft-labs.github.io/)
+🌐 [Embedded Software Labs](https://embesyslabs.github.io/)
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:

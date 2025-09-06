@@ -8,18 +8,18 @@
 
 # List of Demo Projects
 
-- 1. [Basic embedded C demo using STM32F103C6](/stm32f103c6-demo/README.md)
-- 2. [Overview and best practices for data types in embedded C](/embedded-c-data-types/README.md)
-- 3. [Struct and union data types in embedded C](/struct-union-data-types/README.md)
+1. [Basic embedded C demo using STM32F103C6](/stm32f103c6-demo/README.md)
+2. [Overview and best practices for data types in embedded C](/embedded-c-data-types/README.md)
+3. [Struct and union data types in embedded C](/struct-union-data-types/README.md)
 
 # Demo Projects
 🚀 [Demo Projects](/)
 
 # Repositories
-🏠 [My Repositories](https://github.com/embsoft-labs)
+🏠 [My Repositories](https://github.com/embesyslabs)
 
 # My Website
-🌐 [Embedded Software Labs](https://embsoft-labs.github.io/)
+🌐 [Embedded Software Labs](https://embesyslabs.github.io/)
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
