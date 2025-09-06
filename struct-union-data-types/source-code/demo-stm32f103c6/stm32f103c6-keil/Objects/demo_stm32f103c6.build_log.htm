@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ai Ho, Mutithreading Labs, Ltd, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\DevTools\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Blogs\embedded-insights\topics\03-struct-union-data-types\source-code\demo-stm32f103c6\stm32f103c6-keil\demo_stm32f103c6.uvprojx
+Project File Date:  08/24/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\DevTools\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'demo_stm32f103c6'
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+../Core/Src/main.c(32): warning: unused variable 'stDataSize_u8' [-Wunused-variable]
+   32 |         volatile uint8_t stDataSize_u8 = sizeof(Rectangle_st);
+      |                          ^~~~~~~~~~~~~
+../Core/Src/main.c(35): warning: unused variable 'unDataSize_u8' [-Wunused-variable]
+   35 |         volatile uint8_t unDataSize_u8 = sizeof(RegisterType_un);
+      |                          ^~~~~~~~~~~~~
+../Core/Src/main.c(57): warning: unused variable 'byte2' [-Wunused-variable]
+   57 |         uint8_t byte2 = data_un.registerBytes_u8[2];
+      |                 ^~~~~
+../Core/Src/main.c(61): warning: unused variable 'halfWord0' [-Wunused-variable]
+   61 |         uint16_t halfWord0 = data_un.registerHalfWords_u16[0];
+      |                  ^~~~~~~~~
+4 warnings generated.
+compiling main.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_it.c...
+assembling startup_stm32f10x_ld.s...
+compiling system_stm32f1xx.c...
+linking...
+Program Size: Code=580 RO-data=268 RW-data=4 ZI-data=1640  
+".\Objects\demo_stm32f103c6.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/DevTools/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
