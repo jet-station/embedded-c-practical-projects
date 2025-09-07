@@ -222,6 +222,8 @@ typedef struct __attribute__((packed)) {
 <!-- Add more images as needed -->
 
 🚀 You can use this [demo project](/struct-union-data-types/source-code/) to experiment further and deepen your understanding of struct and union data types.
+- 🔨 Development Boards: [STM32F103 Blue Pill Development Board](/README.md)
+- 🔧 Tools: [Keil uVision](/README.md)
 
 # Explore More Topics
 |[👈 Previous](/embedded-c-data-types/README.md) | [Next 👉](/)|
