@@ -20,6 +20,8 @@
 <!-- Add more images as needed -->
 
 🚀 [This example](/stm32f103c6-demo/source-code/) is ideal for learning the fundamentals of embedded software development and getting hands-on experience with STM32 microcontrollers.
+- 🔨 Development Boards: [STM32F103 Blue Pill Development Board](/README.md)
+- 🔧 Tools: [Keil uVision](/README.md)
 
 # Explore More Topics
 |[👈 Previous](/stm32f103c6-demo/README.md) | [Next 👉](/struct-union-data-types/README.md)|

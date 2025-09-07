@@ -48,6 +48,8 @@ To design robust embedded software using data types, the following key points sh
 🚀 You can use this [demo project](/embedded-c-data-types/source-code/) to gain a practical understanding of data types in embedded software. In this project, I demonstrate:
 - The size of C standard data types, which depends on the microcontroller (STM32F103Cx) architecture and the compiler (Keil Arm).
 - The standard data types commonly used in embedded software.
+- 🔨 Development Boards: [STM32F103 Blue Pill Development Board](/README.md)
+- 🔧 Tools: [Keil uVision](/README.md)
 
 👇 Below, you will find examples from the project source code that illustrate the size of C standard data types and common used embedded C data types.
 
