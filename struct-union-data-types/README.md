@@ -232,10 +232,10 @@ typedef struct __attribute__((packed)) {
 🚀 [Demo Projects](/)
 
 # Repositories
-🏠 [My Repositories](https://github.com/embesyslabs)
+🏠 [My Repositories](https://github.com/jet-studio)
 
 # My Website
-🌐 [Embedded Software Labs](https://embesyslabs.github.io/)
+🌐 [Jet Studio](https://jet-studio.github.io/)
 
 # Contact & Discussion
 If you have any thing would like to discuss or cooperate with me, please don't hesitate to contact me via:
