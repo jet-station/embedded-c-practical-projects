@@ -319,8 +319,8 @@ c-macro/
 # Explore More Topics
 |[👈 Previous](/embedded-c-function/README.md) | [Next 👉](/)|
 
-# Demo Projects
-🚀 [Demo Projects](/)
+# Embedded C Practical Projects
+🚀 [Embedded C Practical Projects](/)
 
 # Repositories
 🏠 [My Repositories](https://github.com/jet-studio)

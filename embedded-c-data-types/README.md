@@ -86,8 +86,8 @@ const uint8_t EmbeddedC_DataSizeInBytes_u8[] = {
 # Explore More Topics
 |[👈 Previous](/stm32f103c6-demo/README.md) | [Next 👉](/struct-union-data-types/README.md)|
 
-# Demo Projects
-🚀 [Demo Projects](/)
+# Embedded C Practical Projects
+🚀 [Embedded C Practical Projects](/)
 
 # Repositories
 🏠 [My Repositories](https://github.com/jet-studio)

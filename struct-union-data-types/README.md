@@ -228,8 +228,8 @@ typedef struct __attribute__((packed)) {
 # Explore More Topics
 |[👈 Previous](/embedded-c-data-types/README.md) | [Next 👉](/)|
 
-# Demo Projects
-🚀 [Demo Projects](/)
+# Embedded C Practical Projects
+🚀 [Embedded C Practical Projects](/)
 
 # Repositories
 🏠 [My Repositories](https://github.com/jet-studio)
