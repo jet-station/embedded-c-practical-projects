@@ -1,12 +1,12 @@
-# Demo Projects
+# Embedded C Practical Projects
 
-🚀 Welcome to Demo Projects! This repository is dedicated to sharing knowledge and practical experience in embedded software programming, covering topics from basic concepts to advanced techniques. Whether you are a beginner looking to understand the fundamentals or an experienced developer seeking deeper insights, you will find articles, tutorials, and project examples designed to help you grow your skills in embedded systems development.
+🚀 Welcome to Embedded C Practical Projects! This repository is dedicated to sharing knowledge and practical experience in embedded software programming, covering topics from basic concepts to advanced techniques. Whether you are a beginner looking to understand the fundamentals or an experienced developer seeking deeper insights, you will find articles, tutorials, and project examples designed to help you grow your skills in embedded systems development.
 
 <!-- Images Placeholder -->
-<img src="imgs/demo-projects.png" alt="Demo Projects"/>
+<img src="imgs/demo-projects.png" alt="Embedded C Practical Projects"/>
 <!-- Add more images as needed -->
 
-# List of Demo Projects
+# List of Embedded C Practical Projects
 
 1. [Basic embedded C demo using STM32F103C6](/stm32f103c6-demo/README.md)
 2. [Overview and best practices for data types in embedded C](/embedded-c-data-types/README.md)
@@ -19,7 +19,7 @@
 
 ## Development Boards
 
-🎯 Development boards are essential for prototyping and building embedded systems. This section features popular boards used in the demo projects, highlights their key features, and offers guidance to help you choose the right hardware for your needs.
+🎯 Development boards are essential for prototyping and building embedded systems. This section features popular boards used in the Embedded C Practical Projects, highlights their key features, and offers guidance to help you choose the right hardware for your needs.
 
 ### STM32F103 Blue Pill Development Board
 
@@ -136,7 +136,7 @@
 
 ## Development Tools
 
-🎯 Development tools are vital for creating, testing, and debugging embedded software. In this section, I discuss commonly used tools such as IDEs, compilers, and debuggers, along with those featured in the demo projects. These resources will help you set up an efficient workflow and tackle real-world embedded development challenges.
+🎯 Development tools are vital for creating, testing, and debugging embedded software. In this section, I discuss commonly used tools such as IDEs, compilers, and debuggers, along with those featured in the Embedded C Practical Projects. These resources will help you set up an efficient workflow and tackle real-world embedded development challenges.
 
 ### Keil uVision IDE
 🚀 [Keil uVision IDE](https://www.keil.com/demo/eval/arm.htm). 
@@ -177,8 +177,8 @@
 - Visualizing timing and signal integrity
 - Troubleshooting embedded hardware and firmware issues
 
-# Demo Projects
-🚀 [Demo Projects](/)
+# Embedded C Practical Projects
+🚀 [Embedded C Practical Projects](/)
 
 # Repositories
 🏠 [My Repositories](https://github.com/jet-studio)

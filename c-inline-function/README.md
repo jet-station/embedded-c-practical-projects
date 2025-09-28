@@ -278,51 +278,21 @@ __attribute__((noinline)) void debug_function(void);
 
 ## Folder structure
 ```
-c-macro/
-├── README.md
-└── demo-stm32f103c6/
-	├── BSP/
-	├── Core/
-	│   ├── Inc/
-	│   │   ├── main.h
-	│   │   ├── stm32f1xx_hal_conf.h
-	│   │   └── stm32f1xx_it.h
-	│   ├── Src/
-	│   │   ├── main.c
-	│   │   ├── stm32f1xx_hal_msp.c
-	│   │   ├── stm32f1xx_it.c
-	│   │   ├── syscalls.c
-	│   │   ├── sysmem.c
-	│   │   └── system_stm32f1xx.c
-	│   └── Startup/
-	├── Demo/
-	│   ├── macro_demo.c
-	│   └── macro_demo.h
-	├── Drivers/
-	│   ├── CMSIS/
-	│   │   ├── Device/
-	│   │   ├── Include/
-	│   │   └── LICENSE.txt
-	│   └── STM32F1xx_HAL_Driver/
-	│       ├── Inc/
-	│       ├── LICENSE.txt
-	│       └── Src/
-	├── demo_stm32f103c6.ioc
-	└── stm32f103c6-keil/
-		├── DebugConfig/
-		├── demo_stm32f103c6.uvguix.ADMIN
-		├── demo_stm32f103c6.uvoptx
-		├── demo_stm32f103c6.uvprojx
-		├── EventRecorderStub.scvd
-		├── Listings/
-		├── Objects/
-		└── startup_stm32f10x_ld.s
+c-inline-function/                         # Main project directory
+├── README.md                              # This documentation file
+├── Demo_Project/                          # Complete STM32F103 demo project
+│   ├── source/                            # Source code directory
+│   │   ├── cfg/                           # Configuration files
+│   │   ├── drv/                           # Hardware driver files
+│   │   └── src/                           # Main application source code
+│   └── uVision/                           # Keil uVision project files
+└── imgs/                                  # Documentation images
 ```
 # Explore More Topics
 |[👈 Previous](/c-macro/README.md) | [Next 👉](/)|
 
-# Demo Projects
-🚀 [Demo Projects](/)
+# Embedded C Practical Projects
+🚀 [Embedded C Practical Projects](/)
 
 # Repositories
 🏠 [My Repositories](https://github.com/jet-studio)
