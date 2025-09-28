@@ -55,7 +55,8 @@ static inline uint32_t Inline_MaxFunc(uint32_t a, uint32_t b) {
 ```
 
 #### Insights
-💡 Even though these 3 functions are implemented, `Inline_MaxFunc()` and `MACRO_MAXFUNC()` functions will not be listed in the map file because they are replaced by the actual code in the program. Only the `Reg_MaxFunc()` function exists.
+
+📊 Even though these 3 functions are implemented, `Inline_MaxFunc()` and `MACRO_MAXFUNC()` functions will not be listed in the map file because they are replaced by the actual code in the program. Only the `Reg_MaxFunc()` function exists.
 
 <img src="imgs/MaxFunctionMapFile.png" alt="Max Function In Map File"/>
 
@@ -98,9 +99,9 @@ To easily understand how maximum functions are compiled and executed, I created 
 
 #### Insights
 
-💡 In summary, you can see that function calls using `inline functions` have a larger code size than function calls using `regular functions`.
+📊 In summary, you can see that function calls using `inline functions` have a larger code size than function calls using `regular functions`.
 
-💡 This is because the compiler replaces the `inline function` call with the actual code. On the other hand, the `regular function` call is quite simple and has a smaller code size compared to `macro-like function` and `inline function` calls because it does not replace the function with the actual code; instead, it just branches to the code of the called function.
+📊 This is because the compiler replaces the `inline function` call with the actual code. On the other hand, the `regular function` call is quite simple and has a smaller code size compared to `macro-like function` and `inline function` calls because it does not replace the function with the actual code; instead, it just branches to the code of the called function.
 
 
 ### The Execution of Functions
@@ -154,13 +155,13 @@ To easily understand how maximum functions are compiled and executed, I created 
 
 💡 You can see that even though the `Inline_MaxFunc()` function is replaced by its actual code, you can still see it in the debug view as a regular function.
 
-💡 There is one observation: the `Call Stack` does not grow. However, it changes from the call of `Test_callInlineFunc()` to the call of `Inline_MaxFunc()` function before changing back to the call of `Test_callInlineFunc()` after the actual code of `Inline_MaxFunc()` is executed.
+👉 There is one observation: the `Call Stack` does not grow. However, it changes from the call of `Test_callInlineFunc()` to the call of `Inline_MaxFunc()` function before changing back to the call of `Test_callInlineFunc()` after the actual code of `Inline_MaxFunc()` is executed.
 
-💡 From the start to the end of the function, by looking at the overwriting of the pattern in the stack, the stack grows from `0x20000668` to `0x2000065C`, consuming 12 more bytes to execute the function.
+📊 From the start to the end of the function, by looking at the overwriting of the pattern in the stack, the stack grows from `0x20000668` to `0x2000065C`, consuming 12 more bytes to execute the function.
 
 #### Insights
 
-💡 You can see from the execution of functions that the `regular` function has some trade-offs in **call stack overhead** and **stack consumption** compared to `macro-like` function and `inline` function.
+📊 You can see from the execution of functions that the `regular` function has some trade-offs in **call stack overhead** and **stack consumption** compared to `macro-like` function and `inline` function.
 
 ### The Execution Time of Functions
 
@@ -168,7 +169,7 @@ To easily understand how maximum functions are compiled and executed, I created 
 
 <img src="imgs/TimeMeasurement.png" alt="Execution Time Measurement"/>
 
-👉 It is very straightforward to see that the execution time of the `Test_callMacroFunc` and `Test_callInlineFunc` functions are faster than the `Test_callRegFunc` function.
+📊 It is very straightforward to see that the execution time of the `Test_callMacroFunc` and `Test_callInlineFunc` functions are faster than the `Test_callRegFunc` function.
 
 💡 This is because they do not create any context switching and function calls inside the function body like the `Test_callRegFunc` function.
 
