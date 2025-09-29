@@ -79,7 +79,7 @@ To easily understand how maximum functions are compiled and executed, I created 
 
 #### `Test_callRegFunc()` Function
 
-👉 The `Test_callRegFunc()` is called inside of the function by using its label in the code `Test_callRegFunc`:
+👉 The `Reg_MaxFunc()` is called inside of this `Test_callRegFunc()` function by using its label in the code:
 
 <img src="imgs/RegFuncAssembly.png" alt="Regular Function Assemly Code"/>
 
